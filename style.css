@@ -17,11 +17,8 @@ font-size: 62.5%;
 }
 
 body{
-width: 100%;
-min-height: 100vh;
-overflow-x: hidden;
-background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* background lebih hidup */
-color: white;
+    background: #0a0a0a; /* full dark */
+    color: white;
 }
 
 /* ================= HEADER ================= */
@@ -510,3 +507,25 @@ nav a{
         margin-top: 4rem;
     }
 }
+nav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;        /* biar kalo layarnya kecil, menu turun rapi */
+}
+
+nav a{
+    padding: 0.8rem 1.4rem;
+    background: rgba(255,255,255,0.05);
+    border-radius: 8px;
+    margin: 0 !important;   /* hapus margin kiri yang bikin rusak */
+    transition: .3s;
+}
+
+nav a:hover,
+nav a.active{
+    background: #b74b4b;
+    color: black;
+    border-bottom: none;
+}
+
