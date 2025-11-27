@@ -491,57 +491,22 @@ nav a{
     margin-bottom: 10px;
 }
 /* ================= MOBILE FIX ================= */
-@media (max-width: 768px) {
-
-    header {
-        padding: 14px 20px;
+@media(max-width:995px){
+    .home{
         flex-direction: column;
-        text-align: center;
-        gap: 8px;
+        margin: 5rem 4rem;
     }
 
-    nav a {
-        margin: 0 6px;
-        font-size: 14px;
+    .home .home-content h3{
+        font-size: 2.5rem;
     }
 
-    .home-wrapper {
-        flex-direction: column;
-        text-align: center;
-        gap: 30px;
-        padding-top: 40px;
+    .home-content h1{
+        font-size: 5rem;
     }
 
-    .home-img img {
-        width: 220px;
-        height: 220px;
-        object-fit: cover;
-    }
-
-    .home-img {
-        display: flex;
-        justify-content: center;
-    }
-
-    .home-content h1 {
-        font-size: 32px;
-    }
-
-    .home-content h3 {
-        font-size: 20px;
-    }
-
-    .social-icons {
-        justify-content: center;
-    }
-
-    .projects-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .section {
-        padding: 60px 20px;
+    .home-img img{
+        width: 70vw;
+        margin-top: 4rem;
     }
 }
-
