@@ -490,3 +490,58 @@ nav a{
     font-size: 1.35rem;
     margin-bottom: 10px;
 }
+/* ================= MOBILE FIX ================= */
+@media (max-width: 768px) {
+
+    header {
+        padding: 14px 20px;
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+    }
+
+    nav a {
+        margin: 0 6px;
+        font-size: 14px;
+    }
+
+    .home-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding-top: 40px;
+    }
+
+    .home-img img {
+        width: 220px;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .home-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-content h1 {
+        font-size: 32px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .section {
+        padding: 60px 20px;
+    }
+}
+
